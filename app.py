@@ -175,13 +175,13 @@ if st.button("Predict Profit Category"):
         st.markdown(f"""
         <div class="result-card result-high">
             <div class="result-title">High-Profit Order</div>
-            <div class="result-conf">Confidence: {proba[1]*100:.1f}%</div>
+           
         </div>
         """, unsafe_allow_html=True)
     else:
         st.markdown(f"""
         <div class="result-card result-low">
             <div class="result-title">Low-Profit Order</div>
-            <div class="result-conf">Confidence: {proba[0]*100:.1f}%</div>
+            
         </div>
         """, unsafe_allow_html=True)
