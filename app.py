@@ -65,11 +65,11 @@ st.markdown("""
         margin-top: 1.2rem;
     }
     .result-high {
-        background: linear-gradient(135deg, #d4f4dd, #b8ecc4);
+        background: green;
         border: 1px solid #4caf50;
     }
     .result-low {
-        background: linear-gradient(135deg, #ffe4d6, #ffd0b8);
+        background: red;
         border: 1px solid #ff9800;
     }
     .result-title {
